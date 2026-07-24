@@ -1,0 +1,40 @@
+{
+  "reviewAttempts": 3,
+  "introduction": "Before completing the Nova Electronics investigation, submit your final business findings for manager review.",
+  "approvalMessage": "Excellent investigation. Your conclusions are supported by the available evidence. Nova Electronics has accepted your investigation.",
+  "questions": [
+    {
+      "id": "data-reliability",
+      "type": "radio",
+      "question": "Can management rely on the original sales export without preparation?",
+      "options": ["No, it contains duplicate and incomplete records", "Yes, it is ready for investors", "Only if every store is renamed"],
+      "correctAnswer": "No, it contains duplicate and incomplete records"
+    },
+    {
+      "id": "quality-issues",
+      "type": "checkbox",
+      "question": "Which issues must be addressed before reporting sales performance?",
+      "options": ["Duplicate transactions", "Incomplete store information", "Inconsistent labels", "A new office location"],
+      "correctAnswer": ["Duplicate transactions", "Incomplete store information", "Inconsistent labels"]
+    },
+    {
+      "id": "control",
+      "type": "dropdown",
+      "question": "Which reporting control is recommended?",
+      "options": ["Required-field validation and duplicate checks before each reporting cycle", "Remove all store fields", "Report every raw row to investors"],
+      "correctAnswer": "Required-field validation and duplicate checks before each reporting cycle"
+    },
+    {
+      "id": "finding",
+      "type": "text",
+      "question": "Enter the issue that would overstate sales if left unresolved.",
+      "correctAnswer": "duplicate transactions"
+    }
+  ],
+  "revealReport": [
+    { "heading": "ROOT CAUSE", "content": "The source sales export contains duplicate transactions, incomplete store information, and inconsistent labels." },
+    { "heading": "EVIDENCE", "content": "These defects distort both total sales and the attribution of performance to stores." },
+    { "heading": "PRIORITY AREA", "content": "Create a clean analytical view before the investor presentation." },
+    { "heading": "RECOMMENDATION", "content": "Add required-field validation, a single store naming standard, and a duplicate transaction check to each reporting cycle." }
+  ]
+}

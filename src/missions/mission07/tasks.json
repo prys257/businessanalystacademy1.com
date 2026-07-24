@@ -1,0 +1,1 @@
+[{"id":"missing","label":"Inspect or handle gaps","matcher":"(isna|fillna)\\s*\\("}]

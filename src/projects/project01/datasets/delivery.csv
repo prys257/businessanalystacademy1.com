@@ -1,0 +1,7 @@
+order_id,city,delay_minutes,on_time
+O01,Delhi,82,0
+O02,Delhi,67,0
+O03,Mumbai,71,0
+O04,Mumbai,25,1
+O05,Bengaluru,18,1
+O06,Bengaluru,22,1

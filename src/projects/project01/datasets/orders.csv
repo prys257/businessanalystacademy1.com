@@ -1,0 +1,7 @@
+order_id,customer_id,order_value,discount_pct
+O01,C01,2500,10
+O02,C02,1800,8
+O03,C03,3200,9
+O04,C04,4100,10
+O05,C05,2900,10
+O06,C06,3600,9

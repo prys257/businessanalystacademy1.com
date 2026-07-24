@@ -1,0 +1,40 @@
+{
+  "reviewAttempts": 3,
+  "introduction": "Before completing the TrendMart Retail investigation, submit your final business findings for manager review.",
+  "approvalMessage": "Excellent investigation. Your conclusions are supported by the available evidence. TrendMart Retail has accepted your investigation.",
+  "questions": [
+    {
+      "id": "root-cause",
+      "type": "radio",
+      "question": "What is the most likely driver of the decline in repeat customers?",
+      "options": ["Delivery delays in key cities", "A higher product range", "An accounting error"],
+      "correctAnswer": "Delivery delays in key cities"
+    },
+    {
+      "id": "priority-cities",
+      "type": "checkbox",
+      "question": "Which cities should be prioritised for the delivery recovery plan?",
+      "options": ["Delhi", "Mumbai", "Chennai", "Kolkata"],
+      "correctAnswer": ["Delhi", "Mumbai"]
+    },
+    {
+      "id": "recommendation",
+      "type": "dropdown",
+      "question": "Which action best addresses the evidence?",
+      "options": ["Audit late-order handoffs and proactively communicate with affected customers", "Increase every product price", "Stop collecting delivery data"],
+      "correctAnswer": "Audit late-order handoffs and proactively communicate with affected customers"
+    },
+    {
+      "id": "evidence",
+      "type": "text",
+      "question": "Enter the evidence theme that connects weak retention and customer complaints.",
+      "correctAnswer": "late delivery"
+    }
+  ],
+  "revealReport": [
+    { "heading": "ROOT CAUSE", "content": "Delivery delays are concentrated in the cities with the weakest repeat-customer retention." },
+    { "heading": "EVIDENCE", "content": "Those same cities also have the highest volume of late-delivery complaints." },
+    { "heading": "PRIORITY AREA", "content": "Prioritise Delhi and Mumbai for recovery work." },
+    { "heading": "RECOMMENDATION", "content": "Audit late-order handoffs, communicate proactively with affected customers, and monitor repeat purchase recovery weekly." }
+  ]
+}

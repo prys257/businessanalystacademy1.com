@@ -1,0 +1,1 @@
+[{"id":"chart","label":"Create a branch chart","matcher":"(plt\\.(bar|plot)|\\.plot\\s*\\()"}]

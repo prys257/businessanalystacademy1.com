@@ -1,0 +1,1 @@
+[{"id":"import","label":"Bring in pandas","matcher":"import\\s+pandas"},{"id":"load","label":"Load sales evidence","matcher":"read_csv\\s*\\(.*sales\\.csv"}]

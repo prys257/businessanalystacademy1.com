@@ -1,0 +1,23 @@
+# Dependencies and build output
+node_modules/
+dist/
+.npm-cache/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Local Codex workspace folders
+.agents/
+.codex/
+work/
+outputs/

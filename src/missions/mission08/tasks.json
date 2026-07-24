@@ -1,0 +1,1 @@
+[{"id":"statistics","label":"Calculate a score summary","matcher":"\\.(mean|median|describe)\\s*\\("}]

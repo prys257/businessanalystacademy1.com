@@ -1,0 +1,5 @@
+order_id,zone,minutes,status
+F01,North,31,Delivered
+F02,South,52,Delivered
+F03,North,49,Delivered
+F04,East,28,Delivered

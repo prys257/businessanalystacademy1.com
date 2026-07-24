@@ -1,0 +1,1 @@
+[{"id":"preview","label":"Preview product records","matcher":"\\.head\\s*\\("},{"id":"structure","label":"Inspect structure","matcher":"\\.(shape|columns)"}]

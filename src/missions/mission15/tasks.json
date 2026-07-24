@@ -1,0 +1,1 @@
+[{"id":"rank","label":"Identify the weakest margin","matcher":"sort_values\\s*\\(.*margin"},{"id":"report","label":"Print the finding","matcher":"print\\s*\\("}]

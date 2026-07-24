@@ -1,0 +1,7 @@
+customer_id,city,repeat_customer,quarter_spend
+C01,Delhi,0,2500
+C02,Delhi,0,1800
+C03,Mumbai,0,3200
+C04,Mumbai,1,4100
+C05,Bengaluru,1,2900
+C06,Bengaluru,1,3600

@@ -1,0 +1,1 @@
+{"referenceImplementation":"import pandas as pd\nsales = pd.read_csv('sales.csv')\n\nprint(sales.isna().sum())\nclean = sales.dropna(subset=['store']).drop_duplicates()\nclean['revenue'] = clean['revenue'].astype(float)\nprint(clean.groupby('store')['revenue'].sum())\nprint(clean['revenue'].describe())"}

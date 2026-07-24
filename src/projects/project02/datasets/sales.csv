@@ -1,0 +1,6 @@
+transaction_id,store,revenue,product_code
+N01,Delhi,125000.0,TV-42
+N02,Mumbai,98000.0,PH-11
+N02,Mumbai,98000.0,PH-11
+N03,,76000.0,TV-42
+N04,delhi,invalid,LP-09

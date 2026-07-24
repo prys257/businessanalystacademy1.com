@@ -1,0 +1,1 @@
+[{"id":"select","label":"Select decision fields","matcher":"\\[\\[.*(product|margin).*\\]\\]"}]

@@ -1,0 +1,1 @@
+[{"id":"filter","label":"Isolate late orders","matcher":"\\[.*\\['minutes'\\].*[><=]"}]
